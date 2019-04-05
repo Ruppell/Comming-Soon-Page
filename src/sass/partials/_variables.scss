@@ -2,17 +2,19 @@
 // Colors
 // =========================================
 
-$color-primary: #38b789;
+$color-primary: #ea5757;
+$color-background: #fff;
+$color-border: #eee;
+$color-field-background: #f3f3f3;
+$color-body: #666;
+$color-headings: #181818;
 
 // =========================================
 // Typography
 // =========================================
 
-$body-font-family: "Roboto", Helvetica, Arial, sans-serif;
-$body-color: #989898;
-
-$heading-font-family: 'Montserrat', sans-serif;
-$heading-color: #fff;
+$font-body: "Roboto", Helvetica, Arial, sans-serif;
+$font-headings: 'Montserrat', sans-serif;
 
 // =========================================
 // Media Queries
