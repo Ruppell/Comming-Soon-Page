@@ -1,0 +1,28 @@
+{
+  "name": "comming-soon-page",
+  "version": "1.0.0",
+  "description": "A comming soon template. Originally a tutorial on DesignWoop.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync --watch .",
+    "watch": "sass --watch src/sass/styles.scss:css/styles.css",
+    "production": "sass src/sass/styles.scss:css/styles.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruppell/Comming-Soon-Page.git"
+  },
+  "author": "VernonGrant <vernon@ruppell.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ruppell/Comming-Soon-Page/issues"
+  },
+  "homepage": "https://github.com/Ruppell/Comming-Soon-Page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "sass": "^1.17.4"
+  },
+  "dependencies": {
+    "sass-productive": "github:Ruppell/sass-productive#master"
+  }
+}

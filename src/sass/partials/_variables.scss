@@ -1,0 +1,26 @@
+// =========================================
+// Colors
+// =========================================
+
+$color-primary: #38b789;
+
+// =========================================
+// Typography
+// =========================================
+
+$body-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$body-color: #989898;
+
+$heading-font-family: 'Montserrat', sans-serif;
+$heading-color: #fff;
+
+// =========================================
+// Media Queries
+// =========================================
+
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1200px
+);
