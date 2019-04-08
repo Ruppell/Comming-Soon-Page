@@ -250,6 +250,11 @@ label {
     font-weight: 500;
 }
 
+label.error {
+    font-size: 80%;
+    color: $color-primary;
+}
+
 .mc-field-group {
     margin-bottom: 2rem;
 }
