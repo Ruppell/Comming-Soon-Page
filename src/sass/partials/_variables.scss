@@ -2,19 +2,25 @@
 // Colors
 // =========================================
 
-$color-primary: #ea5757;
+$color-primary: #DF4F51;
+$color-secondary: #9551C8;
+$color-tertiary: #67D7F0;
 $color-background: #fff;
 $color-border: #eee;
 $color-field-background: #f3f3f3;
 $color-body: #666;
-$color-headings: #181818;
+$color-headings: #58595B;
+$border-color: #dee2e6;
 
 // =========================================
 // Typography
 // =========================================
 
-$font-body: "Roboto", Helvetica, Arial, sans-serif;
-$font-headings: 'Montserrat', sans-serif;
+$font-family-roboto:          'Roboto', sans-serif;
+$font-family-rajdhani:        'Rajdhani', sans-serif;
+
+$font-body: $font-family-rajdhani;
+$font-headings: $font-family-roboto;
 
 // =========================================
 // Media Queries
