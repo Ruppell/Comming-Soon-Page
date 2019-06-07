@@ -55,6 +55,10 @@ section {
   display: block;
 }
 
+.font-weight-bold {
+  font-weight: 700;
+}
+
 // =========================================
 // Theming
 // =========================================
@@ -69,7 +73,7 @@ section {
 #dw_countdown {
   position: relative;
   max-width: 780px;
-  margin: 15% auto 15% auto;
+  margin: 10% auto 10% auto;
   text-align: center;
 
   @include media-below(xs) {
@@ -117,6 +121,12 @@ h1, h2 {
   font-size: 1.4rem;
 }
 
+.center-limited-p {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 hr {
   width: 100%;
   margin: 60px auto;
@@ -140,99 +150,6 @@ p > a {
 p > a:hover {
   color: darken($color-primary, 10%);
   border-bottom: 1px solid darken($color-primary, 10%);
-}
-
-// =========================================
-// Flip Clock Style
-// =========================================
-
-.flip-clock-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-
-  ul {
-    font-size: 4.5rem;
-    width: 60px;
-    height: 90px;
-    line-height: 87px;
-  }
-
-  .flip-clock-divider {
-    width: 27px;
-  }
-
-  .flip-clock-divider.seconds .flip-clock-label {
-    right: -70px;
-  }
-
-  .flip-clock-divider.minutes .flip-clock-label {
-    right: -64px;
-  }
-
-  .flip-clock-divider.hours .flip-clock-label {
-    right: -50px;
-  }
-
-  .flip-clock-divider.days .flip-clock-label {
-    right: -39px;
-  }
-
-  // tablet
-  @include media-below(sm) {
-    width: 576px;
-
-    ul {
-      font-size: 3.5rem;
-      width: 47px;
-      height: 70px;
-      line-height: 72px;
-    }
-
-    .flip-clock-divider {
-      width: 20px;
-    }
-
-  }
-
-  // mobile
-  @include media-below(xs) {
-    width: 300px;
-
-    ul {
-      font-size: 2.5rem;
-      width: 22px;
-      height: 43px;
-      line-height: 44px;
-    }
-
-    .flip-clock-divider {
-      width: 5px;
-    }
-
-    .flip-clock-divider.seconds .flip-clock-label {
-      right: -56px;
-    }
-
-    .flip-clock-divider.minutes .flip-clock-label {
-      right: -56px;
-    }
-
-    .flip-clock-divider.hours .flip-clock-label {
-      right: -44px;
-    }
-
-    .flip-clock-divider.days .flip-clock-label {
-      right: -39px;
-    }
-
-    &:before, &:after {
-      content: '';
-      display: none;
-    }
-
-  }
-
 }
 
 // =========================================
