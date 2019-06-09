@@ -73,6 +73,18 @@ table {
   color: #DF4F51;
 }
 
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -96,7 +108,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.75;
   word-wrap: break-word;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 section {
@@ -117,7 +129,7 @@ section {
 #dw_countdown {
   position: relative;
   max-width: 780px;
-  margin: 10% auto 10% auto;
+  margin: 50px auto 50px auto;
   text-align: center;
 }
 @media (max-width: 575px) {
@@ -129,7 +141,7 @@ section {
 h1, h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   color: #58595B;
 }
